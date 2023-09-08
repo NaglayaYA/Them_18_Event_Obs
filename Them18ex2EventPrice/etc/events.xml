@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+
+    <event name="catalog_product_collection_load_after">
+
+        <observer name="Perspective_Them18ex2EventPrice_Observer" 
+                instance="Perspective\Them18ex2EventPrice\Observer\Price" />
+
+    </event>
+
+</config>
